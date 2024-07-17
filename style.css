@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+  color: #ff0101; /* Dark text for headings */
+}
+
+#col {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #2c2a2a;
+}
+
+button {
+  background-color: #2007ff;
+  border: none;
+  color: white;
+  font-weight: 800;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #03093f;
+}
+
+@media only screen and (max-width: 768px) {
+  h2,
+  ul,
+  li,
+  section,
+  a {
+    display: none;
+  }
+  h1::before {
+    content: "Guidelines For ";
+  }
+}
